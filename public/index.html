@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+
+<html lang="es-MX">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>Erick Islas Tech | Tecnología sin mentiras</title>
+<meta content="Reseñas honestas, noticias tecnológicas, tutoriales claros, desarrollo de software y servicios pensados para usuarios reales." name="description"/>
+<meta content="Erick Islas" name="author"/>
+<meta content="index,follow" name="robots"/>
+<meta content="#39ff14" name="theme-color"/>
+<meta content="dark" name="color-scheme"/>
+<meta content="telephone=no" name="format-detection"/>
+<link href="https://erickislastech.com/" rel="canonical"/>
+<meta content="website" property="og:type"/>
+<meta content="es_MX" property="og:locale"/>
+<meta content="Erick Islas Tech" property="og:site_name"/>
+<meta content="Erick Islas Tech | Tecnología sin mentiras" property="og:title"/>
+<meta content="Reseñas honestas, noticias tecnológicas, tutoriales claros, desarrollo de software y servicios pensados para usuarios reales." property="og:description"/>
+<meta content="https://erickislastech.com/" property="og:url"/>
+<meta content="https://erickislastech.com/assets/seo/og-image.jpg" property="og:image"/>
+<meta content="Erick Islas Tech - Tecnología sin mentiras" property="og:image:alt"/>
+<meta content="1200" property="og:image:width"/>
+<meta content="630" property="og:image:height"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<meta content="Erick Islas Tech | Tecnología sin mentiras" name="twitter:title"/>
+<meta content="Reseñas honestas, noticias tecnológicas, tutoriales claros, desarrollo de software y servicios pensados para usuarios reales." name="twitter:description"/>
+<meta content="https://erickislastech.com/assets/seo/og-image.jpg" name="twitter:image"/>
+<link href="assets/seo/favicon.ico" rel="icon" sizes="any"/>
+<link href="assets/seo/favicon-32x32.png" rel="icon" sizes="32x32" type="image/png"/>
+<link href="assets/seo/favicon-16x16.png" rel="icon" sizes="16x16" type="image/png"/>
+<link href="assets/seo/apple-touch-icon.png" rel="apple-touch-icon"/>
+<link href="assets/seo/site.webmanifest" rel="manifest"/>
+<link rel="preload" as="image" href="assets/images/logos/logo-erick-islas-tech.png"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&amp;family=Orbitron:wght@500;700;800;900&amp;display=swap" rel="stylesheet"/>
+<link href="css/reset.css" rel="stylesheet"/>
+<link href="css/style.css" rel="stylesheet"/>
+<link href="css/responsive.css" rel="stylesheet"/>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://erickislastech.com/#person",
+      "name": "Erick Islas",
+      "url": "https://erickislastech.com/",
+      "brand": {
+        "@id": "https://erickislastech.com/#brand"
+      }
+    },
+    {
+      "@type": "Brand",
+      "@id": "https://erickislastech.com/#brand",
+      "name": "Erick Islas Tech",
+      "slogan": "Tecnología sin mentiras",
+      "url": "https://erickislastech.com/",
+      "logo": "https://erickislastech.com/assets/seo/android-chrome-512x512.png"
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://erickislastech.com/#website",
+      "name": "Erick Islas Tech",
+      "url": "https://erickislastech.com/",
+      "inLanguage": "es-MX",
+      "description": "Tecnología sin mentiras: reseñas, noticias, tutoriales y servicios tecnológicos.",
+      "publisher": {
+        "@id": "https://erickislastech.com/#person"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://erickislastech.com/#webpage",
+      "name": "Erick Islas Tech",
+      "headline": "Erick Islas Tech | Tecnología sin mentiras",
+      "url": "https://erickislastech.com/",
+      "isPartOf": {
+        "@id": "https://erickislastech.com/#website"
+      },
+      "inLanguage": "es-MX"
+    }
+  ]
+}
+  </script>
+
+<style>
+/* Sprint visual: identidad y elementos gráficos para inicio */
+.site-logo,
+.brand,
+.logo,
+.nav-brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  text-decoration: none;
+}
+
+.site-logo::before,
+.brand::before,
+.logo::before,
+.nav-brand::before {
+  content: "⚡";
+  width: 42px;
+  height: 42px;
+  display: inline-grid;
+  place-items: center;
+  border: 1px solid rgba(57, 255, 20, .55);
+  border-radius: 14px;
+  color: #39ff14;
+  background:
+    radial-gradient(circle at 30% 20%, rgba(57,255,20,.35), transparent 45%),
+    linear-gradient(135deg, rgba(57,255,20,.12), rgba(0,0,0,.35));
+  box-shadow: 0 0 22px rgba(57, 255, 20, .28);
+  animation: eitPulse 2.8s ease-in-out infinite;
+}
+
+.hero {
+  position: relative;
+  overflow: hidden;
+}
+
+.hero::before {
+  content: "";
+  position: absolute;
+  inset: -30%;
+  background:
+    radial-gradient(circle at 18% 22%, rgba(57,255,20,.18), transparent 24%),
+    radial-gradient(circle at 82% 28%, rgba(0,255,170,.12), transparent 22%),
+    linear-gradient(90deg, transparent 0 48%, rgba(57,255,20,.08) 49% 51%, transparent 52% 100%);
+  opacity: .9;
+  pointer-events: none;
+}
+
+.hero-content,
+.hero-panel {
+  position: relative;
+  z-index: 1;
+}
+
+.hero-kicker {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 14px;
+  color: #c9ffd0;
+  font-weight: 700;
+}
+
+.hero-visual {
+  position: relative;
+  z-index: 1;
+  min-height: 320px;
+  display: grid;
+  place-items: center;
+}
+
+.tech-orb {
+  width: min(360px, 82vw);
+  aspect-ratio: 1;
+  border-radius: 50%;
+  position: relative;
+  border: 1px solid rgba(57,255,20,.5);
+  background:
+    radial-gradient(circle at center, rgba(57,255,20,.18), transparent 34%),
+    radial-gradient(circle at center, rgba(0,0,0,.88), rgba(0,0,0,.62) 62%, transparent 64%),
+    conic-gradient(from 40deg, rgba(57,255,20,.9), transparent 18%, rgba(255,255,255,.55), transparent 45%, rgba(57,255,20,.75), transparent 75%, rgba(57,255,20,.9));
+  box-shadow:
+    0 0 35px rgba(57,255,20,.25),
+    inset 0 0 35px rgba(57,255,20,.12);
+  animation: eitFloat 5s ease-in-out infinite;
+}
+
+.tech-orb::before {
+  content: "🖥️";
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  font-size: clamp(76px, 10vw, 118px);
+  filter: drop-shadow(0 0 22px rgba(57,255,20,.45));
+}
+
+.tech-orb::after {
+  content: "⚙️   💾   🔐   🚀";
+  position: absolute;
+  left: 50%;
+  bottom: 26px;
+  transform: translateX(-50%);
+  width: 85%;
+  text-align: center;
+  letter-spacing: 10px;
+  font-size: 25px;
+  opacity: .95;
+}
+
+.circuit-line {
+  position: absolute;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, #39ff14, transparent);
+  box-shadow: 0 0 14px rgba(57,255,20,.8);
+  opacity: .8;
+  animation: eitScan 2.8s linear infinite;
+}
+
+.circuit-line:nth-child(1) { width: 58%; top: 30%; left: -10%; }
+.circuit-line:nth-child(2) { width: 48%; top: 52%; right: -8%; animation-delay: .6s; }
+.circuit-line:nth-child(3) { width: 34%; top: 70%; left: 5%; animation-delay: 1.1s; }
+
+.cards-grid .card {
+  position: relative;
+  overflow: hidden;
+}
+
+.cards-grid .card::before {
+  display: block;
+  margin-bottom: 14px;
+  font-size: 34px;
+  filter: drop-shadow(0 0 14px rgba(57,255,20,.35));
+}
+
+.cards-grid .card:nth-child(1)::before { content: "🎧"; }
+.cards-grid .card:nth-child(2)::before { content: "📰"; }
+.cards-grid .card:nth-child(3)::before { content: "🛠️"; }
+.cards-grid .card:nth-child(4)::before { content: "💻"; }
+
+.cards-grid .card::after {
+  content: "";
+  position: absolute;
+  inset: auto -20% -45% auto;
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(57,255,20,.18), transparent 70%);
+  pointer-events: none;
+}
+
+.glow-box li {
+  list-style: none;
+  margin: 10px 0;
+}
+
+.glow-box li::before {
+  content: "✅";
+  margin-right: 10px;
+}
+
+
+/* Ajuste visual: hero de ancho completo para evitar cortes laterales */
+html, body {
+  overflow-x: hidden;
+}
+
+main#contenido {
+  overflow-x: hidden;
+}
+
+.hero {
+  width: 100% !important;
+  max-width: none !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  border-radius: 0 !important;
+  box-sizing: border-box;
+  padding-left: max(24px, calc((100vw - 1420px) / 2)) !important;
+  padding-right: max(24px, calc((100vw - 1420px) / 2)) !important;
+  background:
+    linear-gradient(90deg, rgba(0,0,0,.96) 0%, rgba(0,40,15,.98) 12%, rgba(0,64,22,.92) 50%, rgba(0,40,15,.98) 88%, rgba(0,0,0,.96) 100%),
+    radial-gradient(circle at 75% 42%, rgba(57,255,20,.20), transparent 38%);
+}
+
+.hero::before {
+  inset: 0 !important;
+}
+
+@media (max-width: 860px) {
+  .hero {
+    padding-left: 22px !important;
+    padding-right: 22px !important;
+  }
+}
+
+@keyframes eitPulse {
+  0%, 100% { transform: scale(1); box-shadow: 0 0 18px rgba(57,255,20,.25); }
+  50% { transform: scale(1.05); box-shadow: 0 0 30px rgba(57,255,20,.5); }
+}
+
+@keyframes eitFloat {
+  0%, 100% { transform: translateY(0) rotate(0deg); }
+  50% { transform: translateY(-12px) rotate(1deg); }
+}
+
+@keyframes eitScan {
+  0% { transform: translateX(-16px); opacity: .2; }
+  50% { opacity: 1; }
+  100% { transform: translateX(16px); opacity: .2; }
+}
+
+@media (max-width: 860px) {
+  .hero {
+    gap: 32px;
+  }
+
+  .hero-visual {
+    min-height: 260px;
+  }
+
+  .tech-orb {
+    width: min(280px, 78vw);
+  }
+}
+
+/* Header con logo oficial Erick Islas Tech */
+.eit-logo-image-link{
+  display:inline-flex !important;
+  align-items:center !important;
+  justify-content:flex-start !important;
+  text-decoration:none !important;
+  gap:12px !important;
+  line-height:1 !important;
+}
+
+.eit-header-logo-img{
+  height:62px;
+  width:auto;
+  max-width:min(330px, 42vw);
+  object-fit:contain;
+  display:block;
+  filter:
+    drop-shadow(0 0 10px rgba(57,255,20,.28))
+    drop-shadow(0 0 20px rgba(57,255,20,.16));
+  transition:transform .35s ease, filter .35s ease;
+  animation: eitLogoEntrance .7s ease both;
+}
+
+.eit-logo-image-link:hover .eit-header-logo-img{
+  transform:scale(1.035);
+  filter:
+    drop-shadow(0 0 12px rgba(57,255,20,.42))
+    drop-shadow(0 0 26px rgba(57,255,20,.22));
+}
+
+
+.eit-header-brand-text{
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  line-height:.92;
+  letter-spacing:1.6px;
+  text-transform:uppercase;
+  animation: eitLogoEntrance .7s ease both;
+}
+
+.eit-header-brand-main{
+  font-family:'Orbitron', sans-serif;
+  font-size:clamp(1.05rem, 1.7vw, 1.55rem);
+  font-weight:900;
+  color:#f5fff5;
+  text-shadow:
+    0 0 8px rgba(255,255,255,.18),
+    0 0 14px rgba(57,255,20,.18);
+  white-space:nowrap;
+}
+
+.eit-header-brand-tech{
+  font-family:'Orbitron', sans-serif;
+  font-size:clamp(1.05rem, 1.7vw, 1.55rem);
+  font-weight:900;
+  color:#39ff14;
+  letter-spacing:3px;
+  text-shadow:
+    0 0 8px rgba(57,255,20,.48),
+    0 0 18px rgba(57,255,20,.25);
+  white-space:nowrap;
+}
+
+.eit-logo-image-link:hover .eit-header-brand-main,
+.eit-logo-image-link:hover .eit-header-brand-tech{
+  text-shadow:
+    0 0 10px rgba(57,255,20,.55),
+    0 0 22px rgba(57,255,20,.35);
+}
+
+
+/* Evita que el icono ⚡ anterior aparezca cuando usamos el logo oficial */
+.eit-logo-image-link::before{
+  display:none !important;
+  content:none !important;
+}
+
+@keyframes eitLogoEntrance{
+  from{
+    opacity:0;
+    transform:translateY(-8px) scale(.96);
+  }
+  to{
+    opacity:1;
+    transform:translateY(0) scale(1);
+  }
+}
+
+@media (max-width: 860px){
+  .eit-header-logo-img{
+    height:52px;
+    max-width:240px;
+  }
+}
+
+@media (max-width: 520px){
+  .eit-header-logo-img{
+    height:46px;
+    max-width:120px;
+  }
+
+  .eit-header-brand-text{
+    transform:scale(.9);
+    transform-origin:left center;
+  }
+
+  .eit-header-brand-main,
+  .eit-header-brand-tech{
+    font-size:.9rem;
+  }
+}
+
+</style>
+
+</head>
+<body data-page="inicio" data-root="">
+<a class="skip-link" href="#contenido">Saltar al contenido</a>
+<div data-component="header"></div>
+<main id="contenido">
+<section class="hero">
+<div class="hero-content">
+<span class="badge">⚡ Sitio oficial</span>
+<p class="hero-kicker">🧠 Reseñas honestas · 🛠️ Tutoriales claros · 🚀 Tecnología real</p>
+<h1> Tecnología sin mentiras </h1>
+<p>
+        Reseñas honestas, noticias tecnológicas, tutoriales claros,
+        desarrollo de software y servicios pensados para usuarios reales.
+      </p>
+<div class="hero-actions">
+<a class="btn btn-primary" href="pages/resenas.html">Explorar contenido</a>
+<a class="btn btn-secondary" href="pages/servicios.html">Ver servicios</a>
+</div>
+</div>
+<div class="hero-visual" aria-label="Ilustración tecnológica de Erick Islas Tech">
+  <div class="tech-orb">
+    <span class="circuit-line"></span>
+    <span class="circuit-line"></span>
+    <span class="circuit-line"></span>
+  </div>
+</div>
+<div class="hero-panel">
+<div class="panel-light"></div>
+<h2>⚙️ Centro de comando</h2>
+<p>Erick Islas Tech está preparando una nueva experiencia tecnológica.</p>
+<div class="status-card">
+<span>Estado del sitio</span>
+<strong>🚧 En construcción activa</strong>
+</div>
+</div>
+</section>
+<section class="section">
+<div class="section-header">
+<span>🧩 Contenido</span>
+<h2>Explora las secciones principales</h2>
+</div>
+<div class="cards-grid">
+<article class="card">
+<h3>Reseñas</h3>
+<p>Periféricos gamer, software, audio, video, redes, CCTV y más.</p>
+<a href="pages/resenas.html">Ver reseñas →</a>
+</article>
+<article class="card">
+<h3>Noticias</h3>
+<p>IA, Windows, videojuegos, hardware y software explicado sin vueltas.</p>
+<a href="pages/noticias.html">Ver noticias →</a>
+</article>
+<article class="card">
+<h3>Tutoriales</h3>
+<p>Instalación, configuración y guías paso a paso para aprender tecnología.</p>
+<a href="pages/tutoriales.html">Ver tutoriales →</a>
+</article>
+<article class="card">
+<h3>Servicios</h3>
+<p>Consultoría, servicio técnico, desarrollo y venta de soluciones.</p>
+<a href="pages/servicios.html">Ver servicios →</a>
+</article>
+</div>
+</section>
+<section class="section split-section">
+<div>
+<span class="badge">💬 Comunidad</span>
+<h2>Un espacio para aprender, preguntar y crecer</h2>
+<p>
+        La comunidad será el lugar donde los seguidores de Erick Islas Tech
+        podrán encontrar recursos, participar, sugerir temas y mantenerse al día.
+      </p>
+<a class="btn btn-primary" href="pages/comunidad.html">Ir a comunidad</a>
+</div>
+<div class="glow-box">
+<h3>🚀 Próximamente</h3>
+<ul>
+<li>Recursos descargables</li>
+<li>Material de apoyo</li>
+<li>Guías recomendadas</li>
+<li>Contenido exclusivo</li>
+</ul>
+</div>
+</section>
+</main>
+<div data-component="footer"></div>
+
+<script>
+/* Inserta el logo oficial en el header cargado por components.js */
+(function(){
+  const logoPath = "assets/images/logos/logo-erick-islas-tech.png";
+
+  function applyHeaderLogo(){
+    const candidates = document.querySelectorAll(
+      ".site-logo, .brand, .logo, .nav-brand, header a[href='index.html'], header a[href='./'], header a[href='/']"
+    );
+
+    for (const el of candidates) {
+      const text = (el.textContent || "").replace(/\s+/g, " ").trim().toLowerCase();
+
+      if (
+        el.closest("header") &&
+        !el.querySelector(".eit-header-logo-img") &&
+        (
+          text.includes("erick islas") ||
+          text.includes("tech") ||
+          el.classList.contains("site-logo") ||
+          el.classList.contains("brand") ||
+          el.classList.contains("logo") ||
+          el.classList.contains("nav-brand")
+        )
+      ) {
+        el.classList.add("eit-logo-image-link");
+        el.setAttribute("aria-label", "Erick Islas Tech - Inicio");
+        el.innerHTML = '<img class="eit-header-logo-img" src="' + logoPath + '" alt="Erick Islas Tech" loading="eager" decoding="async">' +
+          '<span class="eit-header-brand-text" aria-hidden="true">' +
+            '<span class="eit-header-brand-main">ERICK ISLAS</span>' +
+            '<span class="eit-header-brand-tech">TECH</span>' +
+          '</span>';
+        return true;
+      }
+    }
+
+    return false;
+  }
+
+  document.addEventListener("DOMContentLoaded", function(){
+    if (applyHeaderLogo()) return;
+
+    let attempts = 0;
+    const watcher = setInterval(function(){
+      attempts++;
+      if (applyHeaderLogo() || attempts >= 40) {
+        clearInterval(watcher);
+      }
+    }, 100);
+  });
+})();
+</script>
+
+<script defer src="js/components.js"></script><script defer="" src="js/script.js"></script>
+<script defer="" src="js/analytics.js"></script>
+</body>
+</html>
