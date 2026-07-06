@@ -1,0 +1,98 @@
+[
+  {
+    "id": "informatica-desde-cero-que-es-computadora",
+    "titulo": "¿Qué es una computadora?",
+    "serie": "Informática desde Cero",
+    "categoria": "Conceptos básicos",
+    "nivel": "Principiante",
+    "duracion": "18 min",
+    "fecha": "2026-07-03",
+    "resumen": "Introducción clara para entender qué es una computadora, para qué sirve y cuáles son sus usos principales.",
+    "etiquetas": [
+      "PC",
+      "Informática",
+      "Principiantes"
+    ],
+    "url": "#"
+  },
+  {
+    "id": "partes-de-una-computadora",
+    "titulo": "Partes principales de una computadora",
+    "serie": "Informática desde Cero",
+    "categoria": "Hardware",
+    "nivel": "Principiante",
+    "duracion": "22 min",
+    "fecha": "2026-07-03",
+    "resumen": "Guía para identificar monitor, gabinete, teclado, mouse, procesador, memoria RAM, almacenamiento y puertos.",
+    "etiquetas": [
+      "Hardware",
+      "Componentes",
+      "PC"
+    ],
+    "url": "#"
+  },
+  {
+    "id": "archivos-y-carpetas",
+    "titulo": "Archivos y carpetas: crear, mover y organizar",
+    "serie": "Informática desde Cero",
+    "categoria": "Windows",
+    "nivel": "Principiante",
+    "duracion": "20 min",
+    "fecha": "2026-07-03",
+    "resumen": "Aprende a organizar documentos, imágenes y descargas sin perder archivos importantes.",
+    "etiquetas": [
+      "Windows",
+      "Organización",
+      "Básico"
+    ],
+    "url": "#"
+  },
+  {
+    "id": "seguridad-basica-internet",
+    "titulo": "Seguridad básica en Internet",
+    "serie": "Informática desde Cero",
+    "categoria": "Seguridad",
+    "nivel": "Principiante",
+    "duracion": "25 min",
+    "fecha": "2026-07-03",
+    "resumen": "Contraseñas seguras, phishing, enlaces sospechosos y hábitos básicos para navegar con menos riesgos.",
+    "etiquetas": [
+      "Seguridad",
+      "Phishing",
+      "Contraseñas"
+    ],
+    "url": "#"
+  },
+  {
+    "id": "optimizar-pc-windows",
+    "titulo": "Cómo optimizar tu PC con Windows",
+    "serie": "Informática desde Cero",
+    "categoria": "Mantenimiento",
+    "nivel": "Básico",
+    "duracion": "28 min",
+    "fecha": "2026-07-03",
+    "resumen": "Pasos seguros para mejorar el rendimiento de una computadora sin instalar programas raros ni hacer cambios peligrosos.",
+    "etiquetas": [
+      "Windows",
+      "Rendimiento",
+      "Mantenimiento"
+    ],
+    "url": "#"
+  },
+  {
+    "id": "crear-primera-app-inicio",
+    "titulo": "Crea tu primera app desde cero: lo que necesitas instalar",
+    "serie": "Crea tu primera app desde cero",
+    "categoria": "Programación",
+    "nivel": "Principiante",
+    "duracion": "30 min",
+    "fecha": "2026-07-03",
+    "resumen": "Ruta inicial para preparar tu computadora y entender qué herramientas necesitas antes de programar tu primera aplicación.",
+    "etiquetas": [
+      "Apps",
+      "Kotlin",
+      "Android"
+    ],
+    "url": "#"
+  }
+]
