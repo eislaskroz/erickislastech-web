@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+
+<html lang="es-MX">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>Comunidad | Erick Islas Tech</title>
+<meta content="Comunidad de Erick Islas Tech: recursos, sugerencias, preguntas y material para aprender tecnología." name="description"/>
+<meta content="Erick Islas" name="author"/>
+<meta content="index,follow" name="robots"/>
+<meta content="#39ff14" name="theme-color"/>
+<meta content="dark" name="color-scheme"/>
+<meta content="telephone=no" name="format-detection"/>
+<link href="https://erickislastech.com/pages/comunidad.html" rel="canonical"/>
+<meta content="website" property="og:type"/>
+<meta content="es_MX" property="og:locale"/>
+<meta content="Erick Islas Tech" property="og:site_name"/>
+<meta content="Comunidad | Erick Islas Tech" property="og:title"/>
+<meta content="Comunidad de Erick Islas Tech: recursos, sugerencias, preguntas y material para aprender tecnología." property="og:description"/>
+<meta content="https://erickislastech.com/pages/comunidad.html" property="og:url"/>
+<meta content="https://erickislastech.com/assets/seo/og-image.jpg" property="og:image"/>
+<meta content="Erick Islas Tech - Tecnología sin mentiras" property="og:image:alt"/>
+<meta content="1200" property="og:image:width"/>
+<meta content="630" property="og:image:height"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<meta content="Comunidad | Erick Islas Tech" name="twitter:title"/>
+<meta content="Comunidad de Erick Islas Tech: recursos, sugerencias, preguntas y material para aprender tecnología." name="twitter:description"/>
+<meta content="https://erickislastech.com/assets/seo/og-image.jpg" name="twitter:image"/>
+<link href="../assets/seo/favicon.ico" rel="icon" sizes="any"/>
+<link href="../assets/seo/favicon-32x32.png" rel="icon" sizes="32x32" type="image/png"/>
+<link href="../assets/seo/favicon-16x16.png" rel="icon" sizes="16x16" type="image/png"/>
+<link href="../assets/seo/apple-touch-icon.png" rel="apple-touch-icon"/>
+<link href="../assets/seo/site.webmanifest" rel="manifest"/>
+<link rel="preload" as="image" href="../assets/images/logos/logo-erick-islas-tech.png"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&amp;family=Orbitron:wght@500;700;800;900&amp;display=swap" rel="stylesheet"/>
+<link href="../css/reset.css" rel="stylesheet"/>
+<link href="../css/style.css" rel="stylesheet"/>
+<link href="../css/responsive.css" rel="stylesheet"/>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://erickislastech.com/#person",
+      "name": "Erick Islas",
+      "url": "https://erickislastech.com/",
+      "brand": {
+        "@id": "https://erickislastech.com/#brand"
+      }
+    },
+    {
+      "@type": "Brand",
+      "@id": "https://erickislastech.com/#brand",
+      "name": "Erick Islas Tech",
+      "slogan": "Tecnología sin mentiras",
+      "url": "https://erickislastech.com/",
+      "logo": "https://erickislastech.com/assets/seo/android-chrome-512x512.png"
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://erickislastech.com/#website",
+      "name": "Erick Islas Tech",
+      "url": "https://erickislastech.com/",
+      "inLanguage": "es-MX",
+      "description": "Tecnología sin mentiras: reseñas, noticias, tutoriales y servicios tecnológicos.",
+      "publisher": {
+        "@id": "https://erickislastech.com/#person"
+      }
+    },
+    {
+      "@type": "CollectionPage",
+      "@id": "https://erickislastech.com/pages/comunidad.html#webpage",
+      "name": "Comunidad",
+      "headline": "Comunidad | Erick Islas Tech",
+      "url": "https://erickislastech.com/pages/comunidad.html",
+      "isPartOf": {
+        "@id": "https://erickislastech.com/#website"
+      },
+      "inLanguage": "es-MX"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://erickislastech.com/pages/comunidad.html#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Inicio",
+          "item": "https://erickislastech.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Comunidad",
+          "item": "https://erickislastech.com/pages/comunidad.html"
+        }
+      ]
+    }
+  ]
+}
+  </script>
+
+<style>
+/* Formulario seguro de comunidad */
+.contact-section {
+  position: relative;
+  padding: clamp(48px, 7vw, 92px) max(24px, calc((100vw - 1180px) / 2));
+  background:
+    radial-gradient(circle at 12% 20%, rgba(57,255,20,.12), transparent 28%),
+    radial-gradient(circle at 88% 12%, rgba(0,255,170,.10), transparent 26%),
+    linear-gradient(180deg, rgba(0,0,0,.92), rgba(0,34,14,.96));
+  overflow: hidden;
+}
+
+.contact-section::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image:
+    linear-gradient(rgba(57,255,20,.06) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(57,255,20,.06) 1px, transparent 1px);
+  background-size: 48px 48px;
+  opacity: .28;
+  pointer-events: none;
+}
+
+.contact-grid {
+  position: relative;
+  z-index: 1;
+  display: grid;
+  grid-template-columns: minmax(0, .9fr) minmax(320px, 1.1fr);
+  gap: clamp(24px, 4vw, 56px);
+  align-items: start;
+}
+
+.contact-info-card,
+.contact-form-card {
+  border: 1px solid rgba(57,255,20,.22);
+  background:
+    linear-gradient(145deg, rgba(6,18,12,.94), rgba(2,8,5,.96));
+  border-radius: 24px;
+  box-shadow:
+    0 0 30px rgba(57,255,20,.10),
+    inset 0 0 24px rgba(57,255,20,.04);
+}
+
+.contact-info-card {
+  padding: clamp(24px, 4vw, 38px);
+}
+
+.contact-info-card h2,
+.contact-form-card h2 {
+  margin: 0 0 16px;
+  font-family: "Orbitron", sans-serif;
+  color: #fff;
+}
+
+.contact-info-card p {
+  color: rgba(255,255,255,.78);
+  line-height: 1.75;
+}
+
+.contact-list {
+  display: grid;
+  gap: 14px;
+  margin-top: 24px;
+  padding: 0;
+  list-style: none;
+}
+
+.contact-list li {
+  display: flex;
+  gap: 12px;
+  align-items: flex-start;
+  color: rgba(255,255,255,.84);
+}
+
+.contact-list strong {
+  display: block;
+  color: #39ff14;
+  margin-bottom: 2px;
+}
+
+.contact-form-card {
+  padding: clamp(22px, 4vw, 36px);
+}
+
+.eit-contact-form {
+  display: grid;
+  gap: 18px;
+}
+
+.form-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+
+.form-field {
+  display: grid;
+  gap: 8px;
+}
+
+.form-field label {
+  color: #c9ffd0;
+  font-weight: 800;
+  font-size: .92rem;
+}
+
+.form-field input,
+.form-field select,
+.form-field textarea {
+  width: 100%;
+  border: 1px solid rgba(57,255,20,.24);
+  border-radius: 16px;
+  background: rgba(0,0,0,.42);
+  color: #fff;
+  padding: 14px 16px;
+  outline: none;
+  font: inherit;
+  transition: border-color .25s ease, box-shadow .25s ease, background .25s ease;
+}
+
+.form-field textarea {
+  min-height: 150px;
+  resize: vertical;
+}
+
+.form-field input:focus,
+.form-field select:focus,
+.form-field textarea:focus {
+  border-color: rgba(57,255,20,.75);
+  box-shadow: 0 0 0 4px rgba(57,255,20,.10);
+  background: rgba(0,0,0,.62);
+}
+
+.form-help {
+  color: rgba(255,255,255,.56);
+  font-size: .86rem;
+  line-height: 1.5;
+}
+
+.form-consent {
+  display: flex;
+  gap: 12px;
+  align-items: flex-start;
+  color: rgba(255,255,255,.78);
+  font-size: .92rem;
+  line-height: 1.55;
+}
+
+.form-consent input {
+  margin-top: 4px;
+  accent-color: #39ff14;
+}
+
+.form-honeypot {
+  position: absolute !important;
+  left: -9999px !important;
+  opacity: 0 !important;
+  pointer-events: none !important;
+}
+
+.form-status {
+  min-height: 28px;
+  padding: 12px 14px;
+  border-radius: 14px;
+  font-weight: 800;
+  display: none;
+}
+
+.form-status.is-visible {
+  display: block;
+}
+
+.form-status.is-success {
+  color: #061006;
+  background: #39ff14;
+}
+
+.form-status.is-error {
+  color: #fff;
+  background: rgba(255,65,65,.18);
+  border: 1px solid rgba(255,65,65,.35);
+}
+
+.form-submit-row {
+  display: flex;
+  gap: 14px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.form-submit-row .btn {
+  border: none;
+  cursor: pointer;
+}
+
+.security-note {
+  display: flex;
+  gap: 10px;
+  align-items: flex-start;
+  color: rgba(255,255,255,.65);
+  font-size: .86rem;
+  line-height: 1.55;
+}
+
+@media (max-width: 920px) {
+  .contact-grid,
+  .form-row {
+    grid-template-columns: 1fr;
+  }
+}
+</style>
+
+</head>
+<body data-page="comunidad" data-root="../">
+<a class="skip-link" href="#contenido">Saltar al contenido</a>
+<div data-component="header"></div>
+<main id="contenido">
+<section class="hero">
+<div class="hero-content">
+<span class="badge">💬 Comunidad activa</span>
+<h1>Comunidad</h1>
+<p>Un espacio para aprender, preguntar y crecer.</p>
+<div class="hero-actions">
+<a class="btn btn-primary" href="../index.html">Volver al inicio</a>
+<a class="btn btn-secondary" href="contacto.html">Contacto</a>
+</div>
+</div>
+<div class="hero-panel">
+<div class="panel-light"></div>
+<div class="page-visual visual-comunidad" aria-hidden="true">
+  <span class="page-visual-icon">👥</span>
+  <span class="page-visual-ring"></span>
+  <span class="page-visual-line line-one"></span>
+  <span class="page-visual-line line-two"></span>
+  <small>Crecemos juntos</small>
+</div>
+<h2>En construcción activa</h2>
+<p>Próximamente encontrarás recursos, guías recomendadas y formas de participar con la comunidad.</p>
+<div class="status-card">
+<span>Estado de la sección</span>
+<strong>Próximamente</strong>
+</div>
+</div>
+</section>
+
+<section class="contact-section" aria-labelledby="contacto-comunidad-title">
+  <div class="contact-grid">
+    <aside class="contact-info-card">
+      <span class="badge">📨 Contacto directo</span>
+      <h2 id="contacto-comunidad-title">¿Quieres sugerir un tema o hacer una pregunta?</h2>
+      <p>
+        Usa este formulario para enviar dudas, ideas de videos, sugerencias para la comunidad
+        o propuestas relacionadas con Erick Islas Tech.
+      </p>
+      <ul class="contact-list">
+        <li>
+          <span aria-hidden="true">🧠</span>
+          <div>
+            <strong>Sugerencias de contenido</strong>
+            Ideas para tutoriales, reseñas, guías o noticias tecnológicas.
+          </div>
+        </li>
+        <li>
+          <span aria-hidden="true">🛠️</span>
+          <div>
+            <strong>Soporte y servicios</strong>
+            Consultas generales sobre soporte técnico, desarrollo o soluciones digitales.
+          </div>
+        </li>
+        <li>
+          <span aria-hidden="true">🔒</span>
+          <div>
+            <strong>Privacidad primero</strong>
+            No envíes contraseñas, códigos de acceso, datos bancarios ni información sensible.
+          </div>
+        </li>
+      </ul>
+    </aside>
+
+    <section class="contact-form-card" aria-label="Formulario de contacto de comunidad">
+      <h2>Formulario de contacto</h2>
+
+      <form class="eit-contact-form" id="eitContactForm" novalidate>
+        <!--
+          CONFIGURACIÓN IMPORTANTE:
+          Para que el formulario envíe mensajes reales, reemplaza el valor de CONTACT_FORM_ENDPOINT
+          en el script inferior por tu endpoint seguro, por ejemplo:
+          - Formspree: https://formspree.io/f/XXXXXXX
+          - Web3Forms: https://api.web3forms.com/submit
+          - Cloudflare Worker propio: https://tudominio.com/api/contacto
+
+          No coloques contraseñas, tokens privados ni llaves secretas dentro del HTML.
+        -->
+
+        <div class="form-row">
+          <div class="form-field">
+            <label for="nombre">Nombre</label>
+            <input id="nombre" name="nombre" type="text" autocomplete="name" maxlength="80" required placeholder="Tu nombre">
+          </div>
+
+          <div class="form-field">
+            <label for="email">Correo electrónico</label>
+            <input id="email" name="email" type="email" autocomplete="email" maxlength="120" required placeholder="tu-correo@ejemplo.com">
+          </div>
+        </div>
+
+        <div class="form-row">
+          <div class="form-field">
+            <label for="tipo">Tipo de mensaje</label>
+            <select id="tipo" name="tipo" required>
+              <option value="">Selecciona una opción</option>
+              <option value="Sugerencia de video">Sugerencia de video</option>
+              <option value="Pregunta tecnológica">Pregunta tecnológica</option>
+              <option value="Reseña de producto">Reseña de producto</option>
+              <option value="Servicios tecnológicos">Servicios tecnológicos</option>
+              <option value="Colaboración">Colaboración</option>
+              <option value="Otro">Otro</option>
+            </select>
+          </div>
+
+          <div class="form-field">
+            <label for="asunto">Asunto</label>
+            <input id="asunto" name="asunto" type="text" maxlength="120" required placeholder="Ej. Idea para un tutorial">
+          </div>
+        </div>
+
+        <div class="form-field">
+          <label for="mensaje">Mensaje</label>
+          <textarea id="mensaje" name="mensaje" maxlength="1200" required placeholder="Cuéntame tu duda, sugerencia o propuesta."></textarea>
+          <small class="form-help">Máximo 1200 caracteres. Evita enviar información confidencial.</small>
+        </div>
+
+        <div class="form-honeypot" aria-hidden="true">
+          <label for="empresa">Empresa</label>
+          <input id="empresa" name="empresa" type="text" tabindex="-1" autocomplete="off">
+        </div>
+
+        <label class="form-consent">
+          <input id="privacidad" name="privacidad" type="checkbox" required>
+          <span>
+            Confirmo que no estoy enviando información sensible y acepto que mis datos sean usados únicamente para responder este mensaje.
+          </span>
+        </label>
+
+        <div class="form-status" id="formStatus" role="status" aria-live="polite"></div>
+
+        <div class="form-submit-row">
+          <button class="btn btn-primary" type="submit">Enviar mensaje</button>
+          <span class="security-note">
+            <span aria-hidden="true">🛡️</span>
+            <span>Validación local, campo anti-spam y límite de envío por tiempo para reducir abuso.</span>
+          </span>
+        </div>
+      </form>
+    </section>
+  </div>
+</section>
+
+</main>
+<div data-component="footer"></div>
+
+<script>
+/* Formulario de contacto Erick Islas Tech */
+(function () {
+  const form = document.getElementById("eitContactForm");
+  const status = document.getElementById("formStatus");
+
+  /*
+    PEGA AQUÍ TU ENDPOINT SEGURO:
+    Ejemplo Formspree:
+    const CONTACT_FORM_ENDPOINT = "https://formspree.io/f/XXXXXXX";
+
+    Recomendación seria:
+    usar un endpoint propio con Cloudflare Worker + Turnstile para producción.
+  */
+  const CONTACT_FORM_ENDPOINT = "https://formspree.io/f/TU_ENDPOINT_AQUI";
+
+  const RATE_LIMIT_MS = 60000;
+
+  function showStatus(message, type) {
+    status.textContent = message;
+    status.className = "form-status is-visible " + (type === "success" ? "is-success" : "is-error");
+  }
+
+  function cleanText(value) {
+    return String(value || "")
+      .replace(/[<>]/g, "")
+      .replace(/\s+/g, " ")
+      .trim();
+  }
+
+  function isEndpointConfigured() {
+    return CONTACT_FORM_ENDPOINT && !CONTACT_FORM_ENDPOINT.includes("TU_ENDPOINT_AQUI");
+  }
+
+  function getPayload() {
+    return {
+      nombre: cleanText(form.nombre.value),
+      email: cleanText(form.email.value),
+      tipo: cleanText(form.tipo.value),
+      asunto: cleanText(form.asunto.value),
+      mensaje: cleanText(form.mensaje.value),
+      origen: "Comunidad Erick Islas Tech",
+      fecha: new Date().toISOString()
+    };
+  }
+
+  form.addEventListener("submit", async function (event) {
+    event.preventDefault();
+
+    if (form.empresa.value) {
+      showStatus("No se pudo enviar el mensaje.", "error");
+      return;
+    }
+
+    if (!form.checkValidity()) {
+      form.reportValidity();
+      showStatus("Revisa los campos obligatorios antes de enviar.", "error");
+      return;
+    }
+
+    if (!isEndpointConfigured()) {
+      showStatus("Formulario listo. Falta configurar el endpoint seguro en el código para recibir mensajes reales.", "error");
+      return;
+    }
+
+    const lastSent = Number(localStorage.getItem("eit_contact_last_sent") || 0);
+    if (Date.now() - lastSent < RATE_LIMIT_MS) {
+      showStatus("Espera un momento antes de enviar otro mensaje.", "error");
+      return;
+    }
+
+    const submitButton = form.querySelector("button[type='submit']");
+    submitButton.disabled = true;
+    submitButton.textContent = "Enviando...";
+
+    try {
+      const response = await fetch(CONTACT_FORM_ENDPOINT, {
+        method: "POST",
+        headers: {
+          "Accept": "application/json",
+          "Content-Type": "application/json"
+        },
+        body: JSON.stringify(getPayload())
+      });
+
+      if (!response.ok) {
+        throw new Error("Respuesta no válida del servidor.");
+      }
+
+      localStorage.setItem("eit_contact_last_sent", String(Date.now()));
+      form.reset();
+      showStatus("Mensaje enviado correctamente. Gracias por contactar a Erick Islas Tech.", "success");
+    } catch (error) {
+      showStatus("No fue posible enviar el mensaje. Inténtalo más tarde.", "error");
+    } finally {
+      submitButton.disabled = false;
+      submitButton.textContent = "Enviar mensaje";
+    }
+  });
+})();
+</script>
+
+<script defer="True" src="../js/components.js"></script><script defer="" src="../js/script.js"></script>
+<script defer="" src="../js/analytics.js"></script>
+</body>
+</html>
