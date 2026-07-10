@@ -1,0 +1,30 @@
+{
+  "generated": "2026-07-10",
+  "html_files": 112,
+  "indexable_pages": 107,
+  "sitemap_counts": {
+    "pages": 7,
+    "news": 14,
+    "tutorials": 22,
+    "reviews": 64
+  },
+  "video_entries": 100,
+  "image_pages": 42,
+  "renamed_malformed_files": {
+    "assets/images/logos/Inform#U00e1ticaDesdeCeroLogo.webp": "assets/images/logos/InformáticaDesdeCeroLogo.webp",
+    "assets/images/resenas/AirePort#U00e1til.webp": "assets/images/resenas/AirePortátil.webp",
+    "assets/images/tutoriales/DTUP-Inform#U00e1tica03.webp": "assets/images/tutoriales/DTUP-Informática03.webp",
+    "assets/images/tutoriales/DTUP-Inform#U00e1tica04.webp": "assets/images/tutoriales/DTUP-Informática04.webp",
+    "assets/images/tutoriales/DTUP-Inform#U00e1tica05.webp": "assets/images/tutoriales/DTUP-Informática05.webp",
+    "assets/images/tutoriales/DTUP-Inform#U00e1tica07.webp": "assets/images/tutoriales/DTUP-Informática07.webp",
+    "assets/images/tutoriales/DTUP-Instalaci#U00f3nXboxMode.webp": "assets/images/tutoriales/DTUP-InstalaciónXboxMode.webp",
+    "assets/images/tutoriales/DTUP-LimpiezaF#U00edsica_Ver1.webp": "assets/images/tutoriales/DTUP-LimpiezaFísica_Ver1.webp",
+    "assets/images/tutoriales/DTUP-LimpiezaL#U00f3gica_Ver1.webp": "assets/images/tutoriales/DTUP-LimpiezaLógica_Ver1.webp"
+  },
+  "broken_local_references": [],
+  "notes": [
+    "No se impuso una CSP estricta porque el sitio aún usa scripts y estilos inline; hacerlo sin migrarlos rompería funciones.",
+    "Las puntuaciones Lighthouse dependen del servidor, dispositivo y red; deben medirse después del despliegue."
+  ],
+  "news_image_fallbacks": 6
+}

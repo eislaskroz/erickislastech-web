@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+Disallow: /data/
+
+Sitemap: https://erickislastech.com/sitemap.xml
+Sitemap: https://erickislastech.com/sitemap-news.xml
+Sitemap: https://erickislastech.com/sitemap-tutorials.xml
+Sitemap: https://erickislastech.com/sitemap-reviews.xml

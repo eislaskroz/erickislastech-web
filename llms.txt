@@ -1,0 +1,13 @@
+# Erick Islas Tech
+
+Sitio en español sobre tecnología para usuarios reales.
+
+## Contenido principal
+- Reseñas honestas de productos tecnológicos: /pages/resenas.html
+- Tutoriales claros y rutas de aprendizaje: /pages/tutoriales.html
+- Noticias tecnológicas explicadas: /pages/noticias.html
+- Servicios tecnológicos: /pages/servicios.html
+- Comunidad y contacto: /pages/comunidad.html
+
+## Marca
+Erick Islas Tech — Tecnología sin mentiras.
